@@ -1,0 +1,21 @@
+.blue{
+    background-color: deepskyblue;
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+.line{
+    position: absolute;
+    background-color: darkred;
+}
+
+#row{
+    width: 100%;
+    height: 20px;
+    margin-top: 55px;
+}
+#col{
+    width: 20px;
+    height: 100%;
+    margin-left: 40px;
+}

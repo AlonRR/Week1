@@ -1,0 +1,48 @@
+#blue{
+    background-color: purple;
+    position: relative;
+    border-radius: 5px;
+    height: 300px;
+    width: 600px;
+}
+.text{
+    position: absolute;
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#tm{
+    right: 0;
+    bottom: 0;
+}
+.col{
+    background-color: gray;
+    width: 6%;
+    position: absolute;
+    bottom: 0;
+    margin: 5px;
+    display: inline-block
+}
+#gray1{
+    height: 10%;
+}
+#gray2{
+    left: 12%;
+    height: 60%;
+}
+#gray3{
+    left: 24%;
+    height: 80%;
+}
+#gray4{
+    left: 36%;
+    height: 70%;
+}
+#gray5{
+    left: 48%;
+    height: 65%;
+}
+#gray6{
+    left: 60%;
+    height: 40%;
+}

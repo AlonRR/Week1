@@ -1,0 +1,26 @@
+#container {
+    background-color: #bdc3c7;
+    display: inline-block;
+    box-shadow: 3px 3px 5px black;
+}
+.button:hover{
+    color: rgba(144, 238, 144, 0.61); 
+    background-color:  green;
+    display: inline-block
+}
+.button{
+    background-color: lightgreen;
+    border: 2px solid rgba(0, 100, 0, 0.315);
+}
+.box{
+    width:40px;
+    height:40px;
+    display: inline-block;
+    border: black 1px solid;
+}
+#first{
+    background-color: #1abc9c;
+}
+#second{
+    background-color: #e67e22;
+}

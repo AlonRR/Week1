@@ -1,0 +1,34 @@
+.bot{
+    border-radius: 5px;
+    position: absolute;
+    height: 75%; 
+    display: inline-block;
+}
+#pare{
+    position: absolute;
+    height: 300px;
+    width:  400px;
+}
+#white{
+    background-color: white;
+    width: 66.66%;
+    left: 16.66%; 
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+#red{
+    background-color: red;
+    width: 100%;
+    bottom: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+#gray1{
+    background-color: gray;
+    width: 16.66%;
+}
+#gray2{
+    background-color: gray;
+    width: 16.7%;
+    right: 0;
+}

@@ -1,0 +1,32 @@
+.par{
+    background-color: rgba(170, 9, 135, 0.699);
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+.child{
+height: 100px;
+width: 100px;
+position: absolute;
+}
+#blue{
+    background-color: blue;
+}
+#greeni{  
+    background-color: green;
+    right: 0;
+}
+#yello{
+    background-color: yellow;
+    bottom:0;
+}
+#purp{
+    background-color: purple;
+    right: 0;
+    bottom: 0;
+}
+#gry{
+    background-color: lightgray;
+    right: 100px;
+    top: 100px;
+}
