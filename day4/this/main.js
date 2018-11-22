@@ -108,4 +108,43 @@ shoutIt(avi, revealSecret)
 shoutIt(narkis, revealSecret)
 */
 
-//ex7
+//ex6
+const CALLMEmoney = function(){
+  console.log(coffeeShop.money)
+}
+const coffeeShop = {
+  buyDrink: function(drinkType){
+    this.money+=this.drinkRequirements[drinkType].price
+    CALLMEmoney()
+  },
+  buyBeans: function(numBeans){
+    this.money-=(numBeans*this.costPerBean)
+    CALLMEmoney()
+  },
+  makeDrink: function (drinkType) {
+    let numBeansForDrink = this.drinkRequirements[drinkType]
+    if (!(this.drinkRequirements[drinkType])) {
+      alert(`Sorry we don't make ${drinkType}`)}
+      else if (this.beans<numBeansForDrink){
+        alert(`Sorry, we're all out of beans!`)}
+        else{
+          this.beans-=this.drinkRequirements.drinkType
+          this.buyDrink(drinkType)
+        }
+      },
+  money: 17,
+  beans: 40,
+  costPerBean: 3,
+  drinkRequirements: {
+    latte:{beanRequirement: 10, price: 6},
+    americano:{beanRequirement: 5, price: 3},
+    doubleShot:{beanRequirement: 15, price: 7},
+    frenchPress:{beanRequirement: 12, price: 6.5}
+  },
+}
+    
+coffeeShop.makeDrink(`latte`); 
+coffeeShop.makeDrink(`americano`);
+coffeeShop.makeDrink(`filtered`); //should alert/console `Sorry, we don't make filtered`
+coffeeShop.makeDrink(`doubleShot`);
+coffeeShop.makeDrink(`frenchPress`); //should alert/console `Sorry, we're all out of beans`
