@@ -125,13 +125,13 @@ const coffeeShop = {
     let numBeansForDrink = this.drinkRequirements[drinkType]
     if (!(this.drinkRequirements[drinkType])) {
       alert(`Sorry we don't make ${drinkType}`)}
-      else if (this.beans<numBeansForDrink){
-        alert(`Sorry, we're all out of beans!`)}
-        else{
-          this.beans-=this.drinkRequirements.drinkType
-          this.buyDrink(drinkType)
-        }
-      },
+    else if (this.beans<numBeansForDrink){
+      alert(`Sorry, we're all out of beans!`)}
+    else{
+      this.beans-=this.drinkRequirements.drinkType
+      this.buyDrink(drinkType)
+    }
+  },
   money: 17,
   beans: 40,
   costPerBean: 3,

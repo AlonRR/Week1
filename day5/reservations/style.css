@@ -1,0 +1,10 @@
+#mainbox{
+    background-color: lightgray;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+.input{
+    position: relative;
+    float: left;
+}

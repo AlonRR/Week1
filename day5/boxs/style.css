@@ -1,0 +1,13 @@
+.box{
+    height: 10 vh;
+    background-color: red;
+    display: grid;
+    grid-template-areas: 1fr 1fr
+    ,1fr 1fr;
+    margin: 2px;
+    border: 2px solid black;
+    
+
+    /* float: left; */
+    /* position: absolute; */
+}
